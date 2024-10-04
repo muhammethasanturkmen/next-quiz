@@ -1,0 +1,343 @@
+{
+    "questionAndAnswers": [
+        {
+            "category": "html",
+            "icon": "/images/html-logo.png",
+            "questions": [
+            {
+                "id": 1,
+                "question": "What does HTML stand for?",
+                "options": [
+                "Hyper Text Markup Language",
+                "Home Tool Markup Language",
+                "Hyperlinks and Text Markup Language",
+                "Hyper Tool Markup Language"
+                ],
+                "answer": "Hyper Text Markup Language"
+            },
+            {
+                "id": 2,
+                "question": "Which HTML tag is used to define an internal style sheet?",
+                "options": ["<style>", "<script>", "<css>", "<link>"],
+                "answer": "<style>"
+            },
+            {
+                "id": 3,
+                "question": "Which HTML element is used to create a line break?",
+                "options": ["<br>", "<lb>", "<break>", "<newline>"],
+                "answer": "<br>"
+            },
+            {
+                "id": 4,
+                "question": "Which attribute is used to provide an alternate text for an image, if the image cannot be displayed?",
+                "options": ["title", "alt", "src", "longdesc"],
+                "answer": "alt"
+            },
+            {
+                "id": 5,
+                "question": "Which HTML element defines the title of a document?",
+                "options": ["<meta>", "<title>", "<head>", "<header>"],
+                "answer": "<title>"
+            },
+            {
+                "id": 6,
+                "question": "How can you make a numbered list?",
+                "options": ["<ol>", "<ul>", "<list>", "<dl>"],
+                "answer": "<ol>"
+            },
+            {
+                "id": 7,
+                "question": "What is the correct HTML element for inserting a line?",
+                "options": ["<hr>", "<br>", "<line>", "<ln>"],
+                "answer": "<hr>"
+            },
+            {
+                "id": 8,
+                "question": "Which attribute specifies a unique identifier for an HTML element?",
+                "options": ["name", "id", "class", "key"],
+                "answer": "id"
+            },
+            {
+                "id": 9,
+                "question": "Which HTML tag is used to define a table row?",
+                "options": ["<th>", "<tr>", "<td>", "<table>"],
+                "answer": "<tr>"
+            },
+            {
+                "id": 10,
+                "question": "What is the purpose of the <caption> tag in HTML?",
+                "options": [
+                "To create a caption for a table",
+                "To create a caption for a paragraph",
+                "To create a caption for an image",
+                "To create a caption for a list"
+                ],
+                "answer": "To create a caption for a table"
+            }
+            ]
+        },
+        {
+            "category": "css",
+            "icon": "/images/css-logo.png",
+            "questions": [
+            {
+                "id": 1,
+                "question": "Which CSS property controls the text size?",
+                "options": ["text-size", "font-style", "font-size", "text-style"],
+                "answer": "font-size"
+            },
+            {
+                "id": 2,
+                "question": "What is the correct CSS syntax for making all <p> elements bold?",
+                "options": ["p {text-size:bold;}", "p {font-weight:bold;}", "p {bold;}", "p {font:bold;}"],
+                "answer": "p {font-weight:bold;}"
+            },
+            {
+                "id": 3,
+                "question": "Which property is used to change the background color?",
+                "options": ["color", "bgcolor", "background-color", "background"],
+                "answer": "background-color"
+            },
+            {
+                "id": 4,
+                "question": "How do you add a background image in CSS?",
+                "options": [
+                "background-image: url('image.jpg');",
+                "image: url('image.jpg');",
+                "background: image('image.jpg');",
+                "bg-image: url('image.jpg');"
+                ],
+                "answer": "background-image: url('image.jpg');"
+            },
+            {
+                "id": 5,
+                "question": "How do you select an element with id 'header'?",
+                "options": ["#header", ".header", "header", "id=header"],
+                "answer": "#header"
+            },
+            {
+                "id": 6,
+                "question": "How do you select elements with class name 'intro'?",
+                "options": [".intro", "#intro", "*intro", "intro"],
+                "answer": ".intro"
+            },
+            {
+                "id": 7,
+                "question": "Which CSS property is used to change the text color of an element?",
+                "options": ["text-color", "color", "font-color", "text-style"],
+                "answer": "color"
+            },
+            {
+                "id": 8,
+                "question": "How do you make each word in a text start with a capital letter?",
+                "options": ["text-transform: capitalize;", "text-style: capitalize;", "transform: capitalize;", "text-capitalize: all;"],
+                "answer": "text-transform: capitalize;"
+            },
+            {
+                "id": 9,
+                "question": "Which CSS property controls the space between elements?",
+                "options": ["margin", "padding", "spacing", "border"],
+                "answer": "margin"
+            },
+            {
+                "id": 10,
+                "question": "How do you make the text italic in CSS?",
+                "options": ["font-style: italic;", "font-italic: true;", "text-style: italic;", "text-italic: true;"],
+                "answer": "font-style: italic;"
+            }
+            ]
+        },
+        {
+            "category": "javascript",
+            "icon": "/images/javascript-logo.png",
+            "questions": [
+            {
+                "id": 1,
+                "question": "Which company developed JavaScript?",
+                "options": ["Netscape", "Bell Labs", "Sun Microsystems", "IBM"],
+                "answer": "Netscape"
+            },
+            {
+                "id": 2,
+                "question": "Inside which HTML element do we put the JavaScript?",
+                "options": ["<javascript>", "<script>", "<js>", "<scripting>"],
+                "answer": "<script>"
+            },
+            {
+                "id": 3,
+                "question": "What is the correct syntax for referring to an external script called 'app.js'?",
+                "options": [
+                "<script src='app.js'>",
+                "<script href='app.js'>",
+                "<script ref='app.js'>",
+                "<script name='app.js'>"
+                ],
+                "answer": "<script src='app.js'>"
+            },
+            {
+                "id": 4,
+                "question": "How do you write 'Hello World' in an alert box?",
+                "options": [
+                "alert('Hello World');",
+                "msg('Hello World');",
+                "msgBox('Hello World');",
+                "alertBox('Hello World');"
+                ],
+                "answer": "alert('Hello World');"
+            },
+            {
+                "id": 5,
+                "question": "Which operator is used to assign a value to a variable?",
+                "options": ["*", "=", "-", "+"],
+                "answer": "="
+            },
+            {
+                "id": 6,
+                "question": "How does a 'for' loop start?",
+                "options": [
+                "for (i = 0; i <= 5; i++)",
+                "for i = 1 to 5",
+                "for (i <= 5; i++)",
+                "for (i = 0; i <= 5)"
+                ],
+                "answer": "for (i = 0; i <= 5; i++)"
+            },
+            {
+                "id": 7,
+                "question": "How can you add a comment in JavaScript?",
+                "options": ["// This is a comment", "<!-- This is a comment -->", "# This is a comment", "* This is a comment"],
+                "answer": "// This is a comment"
+            },
+            {
+                "id": 8,
+                "question": "What is the correct way to write a JavaScript array?",
+                "options": [
+                "var colors = ['red', 'green', 'blue']",
+                "var colors = (1:'red', 2:'green', 3:'blue')",
+                "var colors = 'red', 'green', 'blue'",
+                "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+                ],
+                "answer": "var colors = ['red', 'green', 'blue']"
+            },
+            {
+                "id": 9,
+                "question": "How do you round the number 7.25, to the nearest integer?",
+                "options": ["Math.round(7.25)", "Math.rnd(7.25)", "round(7.25)", "rnd(7.25)"],
+                "answer": "Math.round(7.25)"
+            },
+            {
+                "id": 10,
+                "question": "Which event occurs when the user clicks on an HTML element?",
+                "options": ["onchange", "onclick", "onmouseover", "onmouseclick"],
+                "answer": "onclick"
+            }
+            ]
+        },
+        {
+            "category": "accessibility",
+            "icon": "/images/accessibility-logo.png",
+            "questions": [
+            {
+                "id": 1,
+                "question": "What does ARIA stand for?",
+                "options": [
+                "Accessible Rich Internet Applications",
+                "Accessible Resource Integration Act",
+                "Accessible Research Information Access",
+                "Accessible Resource and Information Act"
+                ],
+                "answer": "Accessible Rich Internet Applications"
+            },
+            {
+                "id": 2,
+                "question": "What is the purpose of using 'alt' attribute in an <img> tag?",
+                "options": [
+                "To provide alternate text for an image",
+                "To change the size of an image",
+                "To specify the image file type",
+                "To create a link from the image"
+                ],
+                "answer": "To provide alternate text for an image"
+            },
+            {
+                "id": 3,
+                "question": "Which HTML element is used to improve accessibility for screen readers?",
+                "options": ["<aria>", "<screenreader>", "<div>", "<span>"],
+                "answer": "<aria>"
+            },
+            {
+                "id": 4,
+                "question": "What does WCAG stand for?",
+                "options": [
+                "Web Content Accessibility Guidelines",
+                "Web Communication Accessibility Guide",
+                "World Content Accessibility Guide",
+                "Web Content Accessible Guide"
+                ],
+                "answer": "Web Content Accessibility Guidelines"
+            },
+            {
+                "id": 5,
+                "question": "What is a 'skip to content' link?",
+                "options": [
+                "A link that skips navigation links to go directly to the main content",
+                "A link to skip the webpage",
+                "A link that refreshes the page",
+                "A link to skip a section in the content"
+                ],
+                "answer": "A link that skips navigation links to go directly to the main content"
+            },
+            {
+                "id": 6,
+                "question": "Why is keyboard accessibility important?",
+                "options": [
+                "For users who do not use a mouse",
+                "For faster browsing",
+                "To improve search engine rankings",
+                "To reduce server load"
+                ],
+                "answer": "For users who do not use a mouse"
+            },
+            {
+                "id": 7,
+                "question": "What is the purpose of 'role' attribute in HTML?",
+                "options": [
+                "To define the role of an element in accessibility APIs",
+                "To add styles to an element",
+                "To define a JavaScript function",
+                "To specify an element's ID"
+                ],
+                "answer": "To define the role of an element in accessibility APIs"
+            },
+            {
+                "id": 8,
+                "question": "Which attribute helps to make form elements accessible by associating labels with form controls?",
+                "options": ["id", "name", "for", "alt"],
+                "answer": "for"
+            },
+            {
+                "id": 9,
+                "question": "What is a 'focus indicator'?",
+                "options": [
+                "A visual indicator to show which element has keyboard focus",
+                "A tool for zooming in on text",
+                "A way to highlight text",
+                "A plugin for screen readers"
+                ],
+                "answer": "A visual indicator to show which element has keyboard focus"
+            },
+            {
+                "id": 10,
+                "question": "What is 'contrast ratio' in accessibility?",
+                "options": [
+                "The difference in brightness between text and background colors",
+                "The ratio of width to height of a webpage",
+                "The ratio of image size to text size",
+                "The difference in size between different font styles"
+                ],
+                "answer": "The difference in brightness between text and background colors"
+            }
+            ]
+        }
+    ]
+}

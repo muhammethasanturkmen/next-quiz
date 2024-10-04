@@ -1,4 +1,5 @@
 import localFont from "next/font/local";
+import DarkMode from "/app/darkmode/page.jsx";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -21,6 +22,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <header className="header">
+          <DarkMode />
+        </header>
         {children}
       </body>
     </html>
